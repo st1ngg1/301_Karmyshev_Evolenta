@@ -17,6 +17,9 @@ public class Main {
 
     public void run() {
         Scanner scanner = new Scanner(System.in);
+        System.out.println("Hello, Java from Maven!");
+        System.out.println("---------------------------------------");
+
 
         System.out.println("Введите число a");
         double a = scanner.nextDouble();
