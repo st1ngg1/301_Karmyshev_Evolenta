@@ -1,18 +1,24 @@
 package com.example.demo.dto;
 
-import java.time.LocalDate;
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
 
+@Entity
 public class Person {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
     private String firstname;
     private String surname;
     private String lastname;
-    private LocalDate birthday;
+    private String birthday;
 
     public Person() {
     }
 
-    public Person(int id, String firstname, String surname, String lastname, LocalDate birthday) {
+    public Person(int id, String firstname, String surname, String lastname, String birthday) {
         this.id = id;
         this.firstname = firstname;
         this.surname = surname;
@@ -52,11 +58,11 @@ public class Person {
         this.lastname = lastname;
     }
 
-    public LocalDate getBirthday() {
+    public String getBirthday() {
         return birthday;
     }
 
-    public void setBirthday(LocalDate birthday) {
+    public void setBirthday(String birthday) {
         this.birthday = birthday;
     }
 }
