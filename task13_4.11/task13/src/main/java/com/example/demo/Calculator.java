@@ -8,7 +8,7 @@ import java.util.Map;
 import java.util.Scanner;
 
 @Component
-@Profile("!test")
+@Profile("cli")
 public class Calculator implements CommandLineRunner {
     private final Map<String, Operation> operations;
 
