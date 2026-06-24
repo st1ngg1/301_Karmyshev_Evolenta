@@ -4,12 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3071079a-5f34-496a-9b9f-e7f06f6dbf19" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="3071079a-5f34-496a-9b9f-e7f06f6dbf19" name="Changes" comment="task14">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task14/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/task14-18/.gitattributes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task14/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/task14-18/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task14/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/task14-18/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task14/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/task14-18/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task14/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/task14-18/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task14/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/task14-18/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task14/rest-api.http" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task14/src/main/java/com/example/demo/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/task14-18/src/main/java/com/example/demo/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task14/src/main/java/com/example/demo/controller/MessageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/task14-18/src/main/java/com/example/demo/controller/MessageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task14/src/main/java/com/example/demo/controller/PersonController.java" beforeDir="false" afterPath="$PROJECT_DIR$/task14-18/src/main/java/com/example/demo/controller/PersonController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task14/src/main/java/com/example/demo/dto/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/task14-18/src/main/java/com/example/demo/dto/Message.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task14/src/main/java/com/example/demo/dto/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/task14-18/src/main/java/com/example/demo/dto/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task14/src/main/java/com/example/demo/repository/MessageRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/task14-18/src/main/java/com/example/demo/repository/MessageRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task14/src/main/java/com/example/demo/repository/PersonRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/task14-18/src/main/java/com/example/demo/repository/PersonRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task14/src/main/java/com/example/demo/service/MessageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/task14-18/src/main/java/com/example/demo/service/MessageService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task14/src/main/java/com/example/demo/service/PersonService.java" beforeDir="false" afterPath="$PROJECT_DIR$/task14-18/src/main/java/com/example/demo/service/PersonService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task14/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/task14-18/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task14/src/test/java/com/example/demo/ApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/task14-18/src/test/java/com/example/demo/ApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,22 +34,25 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "st1ngg1"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;st1ngg1&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/st1ngg1/301_Karmyshev_Evolenta",
-    "accountId": "1cc4a357-6686-458e-9d16-1b9e1a73aa58"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/st1ngg1/301_Karmyshev_Evolenta&quot;,
+    &quot;accountId&quot;: &quot;1cc4a357-6686-458e-9d16-1b9e1a73aa58&quot;
   }
+}</component>
+  <component name="HttpClientOnboardingState"><![CDATA[{
+  "isOnboardingCommentShown": true
 }]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="3FXzV6DQcw0fWM0EJlO8qgcgcZr" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -45,13 +63,29 @@
     "Application.DemoApplication.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/sfh12/Documents/301_Karmyshev_Evolenta/task14",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="task14-18" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="task14-18" />
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -67,6 +101,27 @@
       <option name="presentableId" value="Default" />
       <updated>1782236224462</updated>
     </task>
+    <task id="LOCAL-00001" summary="task14">
+      <option name="closed" value="true" />
+      <created>1782315932003</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1782315932003</updated>
+    </task>
+    <task id="LOCAL-00002" summary="task14">
+      <option name="closed" value="true" />
+      <created>1782316002487</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1782316002487</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="task14" />
+    <option name="LAST_COMMIT_MESSAGE" value="task14" />
   </component>
 </project>
