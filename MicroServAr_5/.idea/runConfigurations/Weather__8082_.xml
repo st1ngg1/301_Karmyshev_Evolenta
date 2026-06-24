@@ -1,0 +1,9 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Weather (8082)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <module name="weather" />
+    <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.weather.WeatherApplication" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

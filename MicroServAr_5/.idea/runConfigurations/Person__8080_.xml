@@ -1,0 +1,9 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Person (8080)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <module name="person" />
+    <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.person.PersonApplication" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
