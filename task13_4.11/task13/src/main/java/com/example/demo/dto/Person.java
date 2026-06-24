@@ -1,9 +1,10 @@
 package com.example.demo.dto;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
+import com.fasterxml.jackson.annotation.JsonManagedReference;
+import jakarta.persistence.*;
+
+import java.util.ArrayList;
+import java.util.List;
 
 @Entity
 public class Person {
@@ -15,15 +16,11 @@ public class Person {
     private String lastname;
     private String birthday;
 
-    public Person() {
-    }
+    @OneToMany(mappedBy = "person", cascade = CascadeType.ALL, orphanRemoval = true)
+    @JsonManagedReference
+    private List<Message> mesages = new ArrayList<>();
 
-    public Person(int id, String firstname, String surname, String lastname, String birthday) {
-        this.id = id;
-        this.firstname = firstname;
-        this.surname = surname;
-        this.lastname = lastname;
-        this.birthday = birthday;
+    public Person() {
     }
 
     public int getId() {
@@ -64,5 +61,13 @@ public class Person {
 
     public void setBirthday(String birthday) {
         this.birthday = birthday;
+    }
+
+    public List<Message> getMesages() {
+        return mesages;
+    }
+
+    public void setMesages(List<Message> mesages) {
+        this.mesages = mesages;
     }
 }

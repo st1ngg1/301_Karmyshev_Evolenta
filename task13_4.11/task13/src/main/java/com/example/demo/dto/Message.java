@@ -1,9 +1,7 @@
 package com.example.demo.dto;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
+import com.fasterxml.jackson.annotation.JsonBackReference;
+import jakarta.persistence.*;
 
 import java.time.LocalDateTime;
 
@@ -16,14 +14,12 @@ public class Message {
     private String text;
     private LocalDateTime time;
 
-    public Message() {
-    }
+    @ManyToOne
+    @JoinColumn(name = "person_id")
+    @JsonBackReference
+    private Person person;
 
-    public Message(int id, String title, String text, LocalDateTime time) {
-        this.id = id;
-        this.title = title;
-        this.text = text;
-        this.time = time;
+    public Message() {
     }
 
     public int getId() {
@@ -56,5 +52,13 @@ public class Message {
 
     public void setTime(LocalDateTime time) {
         this.time = time;
+    }
+
+    public Person getPerson() {
+        return person;
+    }
+
+    public void setPerson(Person person) {
+        this.person = person;
     }
 }
